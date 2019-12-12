@@ -17,6 +17,12 @@ func main() {
 	//another way to assign value
 	directAssign := "Hello World"
 
-	fmt.Println(final, intTotal, val1, val2, directAssign)
+	//Constant variable
+
+	const constVariable = 5
+
+	//constVariable= 3    <--- will give error
+
+	fmt.Println(final, intTotal, val1, val2, directAssign, constVariable)
 
 }
